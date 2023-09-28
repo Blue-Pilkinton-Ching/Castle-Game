@@ -1,0 +1,26 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "//wsl.localhost/Ubuntu/home/bloobyjoobyjoob/Phaser/Castle-Game/Assets",
+    "last.imagePath": "//wsl.localhost/Ubuntu/home/bloobyjoobyjoob/Phaser/Castle-Game/Assets/Graphics/opp-assets/environment/tiles/castle",
+    "map.fixedSize": false,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.width": 31,
+    "openFiles": [
+    ],
+    "project": "Tiled.tiled-project",
+    "recentFiles": [
+    ],
+    "tileset.embedInMap": true
+}
