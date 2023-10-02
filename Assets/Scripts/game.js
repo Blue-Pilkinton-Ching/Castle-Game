@@ -7,12 +7,12 @@ const config = {
     default: 'matter',
     matter: {
       gravity: {
-        y: 0,
+        y: 0.2,
       },
       debug: true,
     },
   },
-  backgroundColor: 'rgb(38, 96, 158)',
+  backgroundColor: 'rgb(0, 0, 0)',
   scene: scene,
 }
 

@@ -19,7 +19,8 @@
             }
         },
         "map.tmx#Castle": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "map.tmx#Castle2": {
             "scaleInDock": 1
@@ -38,5 +39,6 @@
     "recentFiles": [
         "map.tmx"
     ],
+    "resizeMap.removeObjects": true,
     "tileset.embedInMap": true
 }
