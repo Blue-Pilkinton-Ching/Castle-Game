@@ -8,11 +8,11 @@ class scene extends Phaser.Scene {
 
     this.load.image(
       'tiles1',
-      'Assets/Graphics/oop-assets/environment/tiles/castle/tile_castle_grey.png'
+      'Assets/Graphics/opp-assets/environment/tiles/castle/tile_castle_grey.png'
     )
     this.load.image(
       'tiles2',
-      'Assets/Graphics/oop-assets/environment/tiles/castle/tile_castle.png'
+      'Assets/Graphics/opp-assets/environment/tiles/castle/tile_castle.png'
     )
     this.load.tilemapTiledJSON('map', 'Assets/castle-map.json')
   }
@@ -25,14 +25,14 @@ class scene extends Phaser.Scene {
     )
 
     const map = this.make.tilemap({ key: 'map', tileWidth: 32, tileHeight: 32 })
-    const tileset1 = map.addTilesetImage('Castle1', 'tiles1')
+    const tileset1 = map.addTilesetImage('Castle', 'tiles1')
     const tileset2 = map.addTilesetImage('Castle2', 'tiles2')
 
-    const layer = map.createLayer(0, 'Tile Layer 1', 0, 0)
+    const layer = map.createLayer('Tile Layer 1', [tileset1, tileset2], 0, 0)
   }
 
   update() {
-    if (space.isDown) {
+    if (this.space.isDown) {
       this.image.x--
     }
   }
