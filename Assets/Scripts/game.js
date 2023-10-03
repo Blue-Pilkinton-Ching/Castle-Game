@@ -9,11 +9,11 @@ const config = {
       gravity: {
         y: 0.2,
       },
-      debug: true,
+      debug: false,
     },
   },
   backgroundColor: 'rgb(0, 0, 0)',
-  scene: scene,
+  scene: Scene,
 }
 
 var game = new Phaser.Game(config)
